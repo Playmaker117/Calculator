@@ -59,13 +59,13 @@ class Program
             }
             catch (Exception e)
             {
-                Console.WriteLine("Oh no! An exception occurred trying to do the math.\n - Details: " + e.Message);
+                Console.WriteLine("Oh no! Una excepcion a ocurrido al calcular la operacion.\n - Descripcion: " + e.Message);
             }
 
             Console.WriteLine("------------------------\n");
 
             // Wait for the user to respond before closing.
-            Console.Write("Press 'n' and Enter to close the app, or press any other key and Enter to continue: ");
+            Console.Write("Presiona 'n' y Enter para terminar y cerrar la app, o presiona otra tecla y Enter para continuar: ");
             if (Console.ReadLine() == "n") endApp = true;
 
             Console.WriteLine("\n"); // Friendly linespacing.
