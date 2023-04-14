@@ -43,7 +43,7 @@ class Program
             Console.WriteLine("\ts - Sumar");
             Console.WriteLine("\tr - Restar");
             Console.WriteLine("\tm - Multiplicar");
-            Console.WriteLine("\td - Divide");
+            Console.WriteLine("\td - Dividir");
             Console.Write("Your option? ");
 
             string op = Console.ReadLine();
