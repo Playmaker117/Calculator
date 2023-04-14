@@ -1,39 +1,40 @@
 ﻿
+
 class Program
 {
     static void Main(string[] args)
     {
         bool endApp = false;
-        // Display title as the C# console calculator app.
-        Console.WriteLine("Console Calculator in C#\r");
+        // Muestra el titulo en pantalla .
+        Console.WriteLine("Caculadora desde la consola de C#\r");
         Console.WriteLine("------------------------\n");
 
         while (!endApp)
         {
-            // Declare variables and set to empty.
+            // Declara las variables y las coloca en cero.
             string numInput1 = "";
             string numInput2 = "";
             double result = 0;
 
-            // Ask the user to type the first number.
-            Console.Write("Type a number, and then press Enter: ");
+            // Pregunta al usuario por el primer numero.
+            Console.Write("Teclea un numero, despues preciona enter: ");
             numInput1 = Console.ReadLine();
 
             double cleanNum1 = 0;
             while (!double.TryParse(numInput1, out cleanNum1))
             {
-                Console.Write("This is not valid input. Please enter an integer value: ");
+                Console.Write("No es un valor permitido, teclea un numero entero: ");
                 numInput1 = Console.ReadLine();
             }
 
-            // Ask the user to type the second number.
-            Console.Write("Type another number, and then press Enter: ");
+            // Pregunta al usuario por el segundo numero.
+            Console.Write("Teclea el segundo numero y presiona enter: ");
             numInput2 = Console.ReadLine();
 
             double cleanNum2 = 0;
             while (!double.TryParse(numInput2, out cleanNum2))
             {
-                Console.Write("This is not valid input. Please enter an integer value: ");
+                Console.Write("No es un valor permitido, teclea un numero entero: ");
                 numInput2 = Console.ReadLine();
             }
 
