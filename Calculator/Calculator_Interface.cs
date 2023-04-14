@@ -64,7 +64,7 @@ class Program
 
             Console.WriteLine("------------------------\n");
 
-            // Wait for the user to respond before closing.
+            // Espera para que el usuario pueda responder si quiere continuar con la app.
             Console.Write("Presiona 'n' y Enter para terminar y cerrar la app, o presiona otra tecla y Enter para continuar: ");
             if (Console.ReadLine() == "n") endApp = true;
 
