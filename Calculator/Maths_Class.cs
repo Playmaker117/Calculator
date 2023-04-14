@@ -2,7 +2,8 @@
 {
     public static double DoOperation(double num1, double num2, string op)
     {
-        double result = double.NaN; // Default value is "not-a-number" which we use if an operation, such as division, could result in an error.
+        double result = double.NaN; // Se declara el valor por defecto sin unvalor ya que este servira como el operador que almacene el resultado
+                                    // , de lo contrario se presentara un error al dividir.
 
         // Usa un Switch para operar realizar las operaciones que seleccione el usuario
         switch (op)
