@@ -44,7 +44,7 @@ class Program
             Console.WriteLine("\tr - Restar");
             Console.WriteLine("\tm - Multiplicar");
             Console.WriteLine("\td - Dividir");
-            Console.Write("Your option? ");
+            Console.Write("Teclee la opcion que quieres ejecutar ");
 
             string op = Console.ReadLine();
 
