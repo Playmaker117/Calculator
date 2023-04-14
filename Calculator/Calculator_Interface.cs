@@ -40,8 +40,8 @@ class Program
 
             // Ask the user to choose an operator.
             Console.WriteLine("Selecciona  en la lista una operacion a realizan :");
-            Console.WriteLine("\ta - Add");
-            Console.WriteLine("\ts - Subtract");
+            Console.WriteLine("\ts - Sumar");
+            Console.WriteLine("\tr - Restar");
             Console.WriteLine("\tm - Multiply");
             Console.WriteLine("\td - Divide");
             Console.Write("Your option? ");
