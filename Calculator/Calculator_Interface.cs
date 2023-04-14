@@ -53,7 +53,7 @@ class Program
                 result = Calculator.DoOperation(cleanNum1, cleanNum2, op);
                 if (double.IsNaN(result))
                 {
-                    Console.WriteLine("This operation will result in a mathematical error.\n");
+                    Console.WriteLine("Este operador resultara en un error matematico.\n");
                 }
                 else Console.WriteLine("Your result: {0:0.##}\n", result);
             }

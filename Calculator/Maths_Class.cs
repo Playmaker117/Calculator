@@ -7,10 +7,10 @@
         // Usa un Switch para operar realizar las operaciones que seleccione el usuario
         switch (op)
         {
-            case "a":
+            case "s":
                 result = num1 + num2;
                 break;
-            case "s":
+            case "r":
                 result = num1 - num2;
                 break;
             case "m":
