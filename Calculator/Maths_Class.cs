@@ -18,13 +18,13 @@
                 result = num1 * num2;
                 break;
             case "d":
-                // Ask the user to enter a non-zero divisor.
+                // Pide al usuario que la division sea difernete de cero.
                 if (num2 != 0)
                 {
                     result = num1 / num2;
                 }
                 break;
-            // Return text for an incorrect option entry.
+            // Muestra un error en el caso que se quiera dividir un numero entre cero.
             default:
                 break;
         }

@@ -38,7 +38,7 @@ class Program
                 numInput2 = Console.ReadLine();
             }
 
-            // Ask the user to choose an operator.
+            // Pregunta al usuario por la opcion que desea elegir.
             Console.WriteLine("Selecciona  en la lista una operacion a realizan :");
             Console.WriteLine("\ts - Sumar");
             Console.WriteLine("\tr - Restar");
@@ -55,7 +55,7 @@ class Program
                 {
                     Console.WriteLine("Este operador resultara en un error matematico.\n");
                 }
-                else Console.WriteLine("Your result: {0:0.##}\n", result);
+                else Console.WriteLine("El resultado es: {0:0.##}\n", result);
             }
             catch (Exception e)
             {
