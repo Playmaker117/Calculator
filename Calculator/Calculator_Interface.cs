@@ -42,7 +42,7 @@ class Program
             Console.WriteLine("Selecciona  en la lista una operacion a realizan :");
             Console.WriteLine("\ts - Sumar");
             Console.WriteLine("\tr - Restar");
-            Console.WriteLine("\tm - Multiply");
+            Console.WriteLine("\tm - Multiplicar");
             Console.WriteLine("\td - Divide");
             Console.Write("Your option? ");
 
